@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "PinHome",
+    "version": "1.0.7",
+  
+    "description": "On browser startup, pin all open tabs",
+    "icons": {
+      "48": "pin48.png"
+    },
+
+    "background": {
+        "scripts": ["script.js"]
+    },
+
+    "permissions": [
+      "tabs"
+    ]
+  }
